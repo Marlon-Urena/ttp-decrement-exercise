@@ -1,9 +1,14 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Decrement from "./Decrement.js";
 
 function App() {
   return (
-    <div>Hello</div>
+    <>
+      <Decrement start={5} />
+      <Decrement start={10} />
+      <Decrement start={15} />
+    </>
   );
 }
 
